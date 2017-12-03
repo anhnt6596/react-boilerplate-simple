@@ -6,7 +6,7 @@ function* fetchLogin(action) {
     //     const url = 'http://localhost:3001/user/login';
     //     const req_body = {
     //         username: action.username,
-    //         password: md5(action.password),
+    //         password: action.password,
     //     };
 
     //     let res_data;

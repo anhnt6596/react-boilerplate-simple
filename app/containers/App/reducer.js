@@ -1,12 +1,11 @@
 const initialState = {
-    isLoginLoading: false,
-    a: 1,
+    count: 0,
 };
 
 const appReducer = (state = initialState, action = {}) => {
     switch (action.type) {
-        case 'LOGIN_REQUEST': {
-            return { ...state, isLoginLoading: true };
+        case 'INCREASE': {
+            return { ...state, count: state.count + 1 };
         }
         default:
             return state;
