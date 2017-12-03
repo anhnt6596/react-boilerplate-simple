@@ -28,8 +28,8 @@ class App extends React.Component {
     }
 }
 
-const About = () => <h2>About</h2>
-const Company = () => <h2>Company</h2>
+const About = () => <h2>About!</h2>
+const Company = () => <h2>Company!</h2>
 const User = ({ match }) => (
   <div>
     <h2>User: {match.params.user}</h2>

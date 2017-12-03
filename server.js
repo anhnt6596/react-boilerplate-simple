@@ -18,7 +18,7 @@ app.use('/api', (req, res) => {
 });
 
 app.use((req, res) => {
-  res.sendFile(__dirname + '/client/index.html');
+  res.sendFile(__dirname + '/app/index.html');
 });
 
 app.listen(port, error => {
